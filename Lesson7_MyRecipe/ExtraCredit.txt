@@ -1,0 +1,10 @@
+For the DOM traversal, I used "$(event.currentTarget).next().fadeIn("slow");" to display the ingredients and instructions in a fade fashion when clicked.
+
+For the CSS change, I used 
+        "$("h3").hover(function(){
+            $(this).css("background-color", "white"); 
+            }, function(){ 
+            $(this).css("background-color", "lavender");
+        });" to change the background color of h3 (ingredients and instructions) when hovered over.
+        
+For animation/event, I used "$("div").append("<center> Bon Appetit!! </center>");" to add Bon Appetit to the end of the instructions list.
